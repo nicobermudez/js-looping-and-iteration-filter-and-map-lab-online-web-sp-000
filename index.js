@@ -1,6 +1,6 @@
 // Code your solution here:
 function driversWithRevenueOver(array, number){
-  array.map(function(driver) {
+  array.filter(function(driver) {
     return driver.revenue > number
   })
 }
