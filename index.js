@@ -23,5 +23,7 @@ function exactMatch(array, object) {
 }
 
 function exactMatchToList() {
-  return exactMatch.map()
+  return exactMatch.map(function(driver) {
+    
+  })
 }
