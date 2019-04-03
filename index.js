@@ -18,6 +18,6 @@ function exactMatch(array, object) {
         return true
       }
     }
-    return false;
+    return false
   })
 }
