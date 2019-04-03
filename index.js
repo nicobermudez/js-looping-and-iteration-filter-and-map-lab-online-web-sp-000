@@ -21,3 +21,7 @@ function exactMatch(array, object) {
     return false
   })
 }
+
+function exactMatchToList() {
+  
+}
