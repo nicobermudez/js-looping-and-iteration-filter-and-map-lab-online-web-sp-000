@@ -22,8 +22,8 @@ function exactMatch(array, object) {
   })
 }
 
-function exactMatchToList() {
-  return exactMatch.map(function(driver) {
+function exactMatchToList(array, object) {
+  return exactMatch(array, object).map(function(driver) {
     return driver.name
   })
 }
